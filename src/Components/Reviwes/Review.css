@@ -1,0 +1,83 @@
+.t-blur1{
+    background-color: red;
+}
+.t-blur2{
+    background-color: yellowgreen;
+}
+.R-warp{
+    padding: 0 3rem 0 3rem ;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    position: relative;
+    flex-direction: column;
+    margin-top: 6rem;
+   
+}
+.R-heading{
+    align-self: center;
+}
+.R-heading *{
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+.R-heading span:nth-of-type(1){
+    color: var(--orangeCard);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.R-heading span:nth-of-type(3){
+    color: var(--orangeCard);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 20px;
+    width: 20rem;
+    height: 12rem;
+    background: rgba(255, 255, 255, 0.26);
+    border: 7px solid rgb(202, 223, 230);
+    box-shadow: 10px 5px 15px  10px rgba(24, 22, 20, 0.4);
+    border-radius: 20px;
+    
+}
+.reviews img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 100%;
+}
+.reviews span{
+    color: gray;
+
+}
+.R-warp .swiper{
+    height: 70%;
+    width: 100%;
+
+}
+@media  screen  and (max-width:480px) {
+     .R-warp{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        height: 360px;
+        height: 375px;
+        margin-top: 2rem;
+      
+     }
+     .reviews img{
+        width: 70px;
+        height: 70px;
+     }
+     .reviews{
+        height:180px;
+        width:60px;
+        box-shadow: none;
+     }
+}

@@ -1,0 +1,83 @@
+.services{
+    padding: 0 3rem 0 3rem;
+    display: flex; 
+    margin-top: 14rem;
+    margin-bottom:20rem;
+    margin-bottom: 13rem;
+    height: 80vh;
+}
+.amezing{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.amezing :nth-child(1){
+    color: var(--black);
+    font-size: 3.5rem;
+    font-size: 60px;
+    color: rgb(17, 16, 16);
+   font-family: -apple-syste;
+    
+}
+.amezing :nth-child(2){
+    color: var(--orangeCard);
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.amezing :nth-child(3){
+
+    margin-top: 2rem;
+}
+.s-button{
+   
+    margin-top: 3rem;
+    font-family:-apple-system;
+    border: 1px solid white;text-decoration: none;
+    width: 100px;  
+}
+@media  screen  and (max-width:480px) {
+    .services{
+        margin-top: 0;
+        flex-direction: column;
+        gap: 0rem;
+        height: 79rem;
+        padding: 0;
+       
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 26rem;
+        margin: 0;
+         transform: none;
+        width: auto;
+         margin-left: -110px;
+         margin-bottom: -10px;
+         
+     
+    }
+    #edit{
+        margin-left: -510px;
+        margin-top: -450px;
+    }
+    #java{
+       margin-top: -150px;
+    }
+
+    #hardware{
+        margin-left: -510px;
+    }
+}
+
+@media  screen  and (max-width:1600px){
+
+    .amezing{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .services{
+        top: -200px;
+    }
+}

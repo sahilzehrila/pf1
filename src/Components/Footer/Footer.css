@@ -1,0 +1,49 @@
+.Footer{
+    display: flex;
+    align-items: center;
+    margin: -0.5rem -3.6rem ;
+    position: relative;
+    margin-top: -7rem;
+}
+.F-content{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 4rem;
+     gap: 4rem;
+     color: whitesmoke;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: bold;
+     font-size: 25px;
+}
+.F-icons{
+    display: flex;
+    gap: 2rem;
+}
+.F-icons:hover{
+    cursor: pointer;
+  
+}
+
+@media  screen  and (max-width:1600px){
+
+    .Footer{
+        height: 30vh;
+        margin-top: 100px;
+      }
+      
+
+}
+
+@media  screen  and (max-width:480px) {
+    .F-content{
+        transform: scale(.5);
+      }
+    .Footer{
+        height: 110px;
+    }
+     
+}

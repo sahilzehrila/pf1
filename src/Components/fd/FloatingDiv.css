@@ -1,0 +1,30 @@
+.fd{
+  
+    display: flex;
+     
+    background:rgb(253, 253, 253);
+    box-shadow: 0 5px 15px  rgba(24, 22, 20, 0.4);
+    justify-content: space-around;
+    border-radius: 19px;
+    align-items: center;
+    padding: 19px 280px 20px  1px;
+    height: 4.5rem;
+    margin-right: 400px;
+    margin-top: 50px;
+   
+    
+}
+.fd img{
+    width: 90px;
+    height: 90px;
+    margin-right: 400px;
+    
+}
+.fd span{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-right: 200px;
+    color: #000000;
+    font-weight: bolder;
+    
+}

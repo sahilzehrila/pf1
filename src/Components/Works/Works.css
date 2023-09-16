@@ -1,0 +1,120 @@
+.works{
+    padding: 12rem 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    
+}
+.w-mainCircle img{
+    height: 80px;
+    width: 80px;
+}
+.w-right{
+    position: relative;
+   
+}
+
+.w-mainCircle{
+    left: 30rem;
+    position: relative;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    margin-top: 100px;
+    background: white;
+    box-shadow: 0px 5px 158px  5px rgba(97, 97, 97, 0.4);
+}
+
+.w-mainCircle *{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transition: 0.5s;
+}
+.w-mainCircle :hover{
+    transform: scale(1.1);
+
+   
+       
+}
+#img1{
+    top: 5.2rem;
+    left: 7rem;
+}
+#img2{
+    top: 6rem;
+    left: 17rem;
+
+}
+#img3{
+    top: 7rem;
+    left: -4rem;
+}
+#img4{
+    top: -3.9rem;
+     left: 6rem;
+}
+#img5{
+    top: 17rem;
+    left: 8rem;
+}
+.w-secCircle{
+    width:7rem;
+    height: 7rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 0px solid #ebebeb;
+    justify-content: center;
+    background-color: ali7eblue;
+    background: rgb(240, 240, 240);
+   
+}
+.w-secCircle * :hover{
+    transform: rotate(45deg); 
+}
+
+
+
+.backCircle1{
+    position: absolute;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 100%;
+    z-index: -1;
+    margin-top: 100px;
+}
+#c1{
+    left: 40rem;
+    top: 2rem;
+    background-color: rgb(0, 4, 253);
+}
+#c2{
+    top: 12rem;
+    left: 24rem;
+background-color: rgb(253, 158, 15);
+
+}
+#c3{
+    background-color: rgb(43, 116, 226);
+    top: -9rem;
+    left: 26rem;
+}
+@media  screen  and (max-width:480px) {
+    .works{
+        flex-direction: column;
+        height: 65rem;
+        margin-top: 400px;
+        padding: 0;
+        gap: 5rem;
+    }
+    .w-right{
+        display: flex;
+        
+       
+        transform: scale(0.7);
+        margin-top: -60px;
+        margin-left: -411px;
+    }
+  
+      
+   
+}

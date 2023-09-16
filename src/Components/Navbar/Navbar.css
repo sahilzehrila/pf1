@@ -1,0 +1,63 @@
+.warper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    flex: 1;
+    align-self: center;
+    display: flex;
+    gap:4rem;
+    
+}
+.name{
+    font-size:1.3rem ;
+    font-weight: bold;
+}
+.right{
+    display: flex;
+
+    flex: 1;
+    align-items: center;
+    font-weight: 400;
+    justify-content: center;
+}
+.list{
+    display: flex;
+    gap:2rem;
+    margin-right: 4rem;
+}
+.list :hover{
+    cursor: pointer;
+    color: var(--orangeCard);
+
+}
+li{
+    list-style-type: none;
+}
+.navbarbtn{
+    flex: 2;
+}
+#sahil img{
+    height: 100px;
+    
+}
+#tgl{
+    margin-top: 30px;
+}
+
+@media  screen  and (max-width:480px) {
+
+  .list{
+    display: none;
+
+  }
+  .navbarbtn{
+    display: none;
+  }
+  #sahil{
+    margin-left: 80px;
+  }
+
+}
+

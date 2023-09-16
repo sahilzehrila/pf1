@@ -1,0 +1,64 @@
+.card {
+    width: 15rem;
+    height: 18rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(54, 25, 25, 0.096);
+    border: 7px solid var(--orangeCard);
+    box-shadow: 0 5px 15px  rgba(24, 22, 20, 0.4); 
+    border-radius: 20px;
+    margin-left: 200px;
+    font-family: Arial;
+}
+
+
+
+.card > img{
+height: 100px;
+width: 100px;
+}
+
+
+.cardbutton {
+    background-color: #ffa500;
+    border: 1px solid #ffa500;
+    border-radius: 50px;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    box-shadow: 5px 5px 5px #888888;
+    
+  }
+  
+  .cardbutton:hover {
+    background-color: #ff8000;
+    border-color: #ff8000;
+    box-shadow: 10px 10px 10px #888888;
+  }
+  .cards{
+    position: relative;
+  }
+  .card2{
+   height: 15rem;
+    margin-left: 300px;
+    margin-top: -120px;
+  }
+  .card3{
+    height: 10rem;
+    margin-left: 300px;
+    margin-top: 200px;
+  }
+  
+  @media  screen  and (max-width:1600px) {
+   
+    .card{
+      left: -10px;
+      top: -100px;
+    }
+  }
