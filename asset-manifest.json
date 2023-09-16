@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/sahil/static/css/main.1f3bed50.css",
+    "main.js": "/sahil/static/js/main.7743b3bb.js",
+    "static/js/787.cf3c82ba.chunk.js": "/sahil/static/js/787.cf3c82ba.chunk.js",
+    "static/media/d1.pdf": "/sahil/static/media/d1.7b8c23d1341e6068edda.pdf",
+    "static/media/pc.png": "/sahil/static/media/pc.2d04158a4804141121af.png",
+    "static/media/edit.png": "/sahil/static/media/edit.43ff2336e053ea23d458.png",
+    "static/media/real.png": "/sahil/static/media/real.2f2532db663fd5ec5f95.png",
+    "static/media/logo.png": "/sahil/static/media/logo.de3ab8788293f674d8ae.png",
+    "static/media/vscode.png": "/sahil/static/media/vscode.1c3761ffc481bd897cf6.png",
+    "static/media/anime.png-removebg-preview.png": "/sahil/static/media/anime.png-removebg-preview.a4b5b679121b53fc8a28.png",
+    "static/media/chatbot.png": "/sahil/static/media/chatbot.bed9ac6fd118bcc7a3a9.png",
+    "static/media/portfolio.jpg": "/sahil/static/media/portfolio.c63436d3ff87c877d883.jpg",
+    "static/media/m1.png": "/sahil/static/media/m1.3ebb68fb04dc107a2876.png",
+    "static/media/glassesimoji.png": "/sahil/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/weather.jpg": "/sahil/static/media/weather.f5879645af6359307639.jpg",
+    "static/media/r1.pdf": "/sahil/static/media/r1.f07c289fd18b4cb02fc8.pdf",
+    "static/media/ecom.webp": "/sahil/static/media/ecom.fedc47e6d313bfc8462d.webp",
+    "static/media/physics.png": "/sahil/static/media/physics.07d9e407d4e491c548d5.png",
+    "static/media/java.png": "/sahil/static/media/java.b7a2f6415cec10cee413.png",
+    "static/media/3d.png": "/sahil/static/media/3d.a8042d4f255f9708a3cf.png",
+    "static/media/developer.png": "/sahil/static/media/developer.26dadaebe7f30dcddc53.png",
+    "static/media/wave.png": "/sahil/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/sahil/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/sahil/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/bootstrap.png": "/sahil/static/media/bootstrap.268c4375260420e8d982.png",
+    "static/media/js.png": "/sahil/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/sahil/index.html",
+    "main.1f3bed50.css.map": "/sahil/static/css/main.1f3bed50.css.map",
+    "main.7743b3bb.js.map": "/sahil/static/js/main.7743b3bb.js.map",
+    "787.cf3c82ba.chunk.js.map": "/sahil/static/js/787.cf3c82ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f3bed50.css",
+    "static/js/main.7743b3bb.js"
+  ]
+}
